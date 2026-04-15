@@ -11,7 +11,7 @@ from sklearn.tree import DecisionTreeClassifier, plot_tree
 from sklearn.ensemble import RandomForestClassifier
 
 
-df = pd.read_csv("/Users/varunreddy/Downloads/Titanic-Dataset.csv")
+df = pd.read_csv("Titanic-Dataset.csv")
 
 
 X = df.drop(columns=["Survived"])
