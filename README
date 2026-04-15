@@ -12,3 +12,8 @@ Results:
 
 Conclusion:
 Random Forest performs slightly better due to reduced overfitting.
+
+
+Random Forest performs slightly better than Decision Tree, with an average accuracy of 0.833 compared to 0.827. 
+This improvement is expected because Random Forest reduces overfitting by combining multiple trees,whereas a single Decision Tree is more prone to variance. 
+Therefore, Random Forest is the better model for this task.
