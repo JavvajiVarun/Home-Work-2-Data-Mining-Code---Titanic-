@@ -1,0 +1,14 @@
+# Titanic Survival Prediction - DM Models 1
+
+This project implements:
+- Data preprocessing (handling missing values, encoding)
+- Decision Tree (fine-tuned with GridSearchCV)
+- Random Forest (fine-tuned with GridSearchCV)
+- 5-fold cross-validation for both models
+
+Results:
+- Decision Tree Accuracy: ~0.827
+- Random Forest Accuracy: ~0.833
+
+Conclusion:
+Random Forest performs slightly better due to reduced overfitting.
